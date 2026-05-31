@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-PDF to Markdown Converter (EasyOCR - no Tesseract/Poppler/API key required)
-- Scans the input/ folder for PDFs
-- Renders each page as an image and reads it with EasyOCR
-- Saves a .md file to output/
-- Archives the original PDF to archive/
-
-Install:
-    pip install pymupdf easyocr
-
-First run will download the OCR model (~100MB, one time only).
-"""
-
 import argparse
 import shutil
 import sys
